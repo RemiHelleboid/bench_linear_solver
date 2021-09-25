@@ -1,0 +1,2 @@
+add_executable(bench_eigen benchmark_eigen_solver.cpp)
+target_link_libraries(bench_eigen benchmark pthread Eigen3::Eigen)
